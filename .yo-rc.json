@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "14.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "time-sheet",
+    "libraryId": "08aea377-bad0-44b6-96c7-c8b59547f5af",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "TimeSheet",
+    "solutionShortDescription": "TimeSheet description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

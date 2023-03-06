@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "time-sheet-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/timeSheet/TimeSheetWebPart.js",
+          "manifest": "./src/webparts/timeSheet/TimeSheetWebPart.manifest.json"
+        }
+      ]
+    },
+    "time-sheet-report-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/timeSheetReport/TimeSheetReportWebPart.js",
+          "manifest": "./src/webparts/timeSheetReport/TimeSheetReportWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TimeSheetWebPartStrings": "lib/webparts/timeSheet/loc/{locale}.js",
+    "TimeSheetReportWebPartStrings": "lib/webparts/timeSheetReport/loc/{locale}.js"
+  }
+}
