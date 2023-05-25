@@ -1,8 +1,8 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "time-sheet-client-side-solution",
-    "id": "08aea377-bad0-44b6-96c7-c8b59547f5af",
+    "name": "document-templater-poc-client-side-solution",
+    "id": "65b49703-f5b0-405b-99b7-cc425acf95ce",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "TimeSheet description"
+        "default": "document-templater-poc description"
       },
       "longDescription": {
-        "default": "TimeSheet description"
+        "default": "document-templater-poc description"
       },
       "screenshotPaths": [],
       "videoUrl": "",
@@ -27,14 +27,14 @@
     },
     "features": [
       {
-        "title": "time-sheet Feature",
-        "description": "The feature that activates elements of the time-sheet solution.",
-        "id": "0b7a6a99-ccc0-4c42-9cce-e6c6d54801a0",
+        "title": "document-templater-poc Feature",
+        "description": "The feature that activates elements of the document-templater-poc solution.",
+        "id": "5f38ceb8-364f-4ad6-acfc-82b539a71af9",
         "version": "1.0.0.0"
       }
     ]
   },
   "paths": {
-    "zippedPackage": "solution/time-sheet.sppkg"
+    "zippedPackage": "solution/document-templater-poc.sppkg"
   }
 }

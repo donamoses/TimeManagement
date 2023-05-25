@@ -2,26 +2,18 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "time-sheet-web-part": {
+    "document-templater-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/timeSheet/TimeSheetWebPart.js",
-          "manifest": "./src/webparts/timeSheet/TimeSheetWebPart.manifest.json"
-        }
-      ]
-    },
-    "time-sheet-report-web-part": {
-      "components": [
-        {
-          "entrypoint": "./lib/webparts/timeSheetReport/TimeSheetReportWebPart.js",
-          "manifest": "./src/webparts/timeSheetReport/TimeSheetReportWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/documentTemplater/DocumentTemplaterWebPart.js",
+          "manifest": "./src/webparts/documentTemplater/DocumentTemplaterWebPart.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "TimeSheetWebPartStrings": "lib/webparts/timeSheet/loc/{locale}.js",
-    "TimeSheetReportWebPartStrings": "lib/webparts/timeSheetReport/loc/{locale}.js"
+    "DocumentTemplaterWebPartStrings": "lib/webparts/documentTemplater/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
   }
 }
